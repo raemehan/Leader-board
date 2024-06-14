@@ -1,3 +1,250 @@
-.logo{
-    background-color: rgb(52, 88, 199);
+*{
+    margin: 0;
+    padding: 0;
+    
 }
+
+nav{
+    background-color: rgb(57, 97, 216);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    line-height: 50px;
+    padding-inline: 250px; 
+    margin-bottom: 50px;
+}
+
+.logo{
+    display: flex;
+    padding: 10px;
+
+}
+
+.logo img{
+    width: 35px;
+    height: 45px;
+    
+}
+
+.logo h1{
+   
+    font-size: 25px;
+    color: white;
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+.main{
+    padding-inline: 25px;
+}
+
+
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    color:white ;
+    padding-inline: 25px;
+}
+
+.header-container{
+    display: flex;
+    line-height: 50px;
+    padding-top: 10px;  
+}
+
+.profile{
+    height: 40px;
+    width: 40px;
+}
+
+.top{
+    
+    margin: 0 250px;
+    background-color: rgb(247, 253, 255);
+    height: 800px;
+    box-shadow: 10px 10px 10px 20px lightgrey ;
+    width: 865px;
+    box-shadow: transparent;
+}
+
+.players img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.players-area{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+}
+.players{
+    display: flex;
+    padding: 30px;
+
+}
+
+.player-name{
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 300;
+    padding: 0  20px;
+    padding-bottom: 5px;
+
+}
+
+
+.top-player{
+    font-size: 40px;
+    color: rgb(58, 98, 216);
+    padding: 20px;
+    font-weight: 800;
+}
+
+.blog img{
+    height: 110px;
+    width: 160px;
+}
+
+.blogs{
+display: grid;
+grid-template-columns: auto auto;
+padding: 40px;
+}
+
+.blog{
+    display: flex;
+    padding: 30px;
+}
+ 
+.blog p{
+    font-size: 20px;
+    width: 150px;
+    padding: 20px;
+    
+}
+
+.by{
+    color: grey;
+    font-size: 16px;
+
+}
+
+.cretor-name{
+    color: rgb(62, 99, 211);
+    font-size: 16px; 
+
+}
+
+.top-blog{
+  
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(52, 91, 206);
+}
+
+footer{
+    
+    margin: 50px 250px;
+    background-color: rgb(247, 253, 255);
+    height: 400px;
+    box-shadow: 10px 10px 10px 20px lightgrey ;
+    width: 865px;
+    box-shadow: transparent;
+}
+
+
+.course-img{
+    display: flex;
+    width:249px ;
+    height: 150px;
+}
+
+.star{
+    width: 16px;
+    height: 16px;
+}
+
+.courses{
+    display: flex;
+
+}
+
+.course{
+    padding: 20px;
+}
+
+.stars{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.stars p{
+font-size: 17px;
+padding: 0 5px;
+bottom: 10px;
+}
+
+.img-5{
+    width: 14px;
+    height: 16px;
+    
+    padding: 0 10px;
+}
+
+
+
+.course span{
+    font-size: 15px;
+    color: rgb(221, 110, 110);
+    margin-top: 10px;
+}
+
+.course p{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.time{
+    display: flex;
+    background-color: rgba(165, 42, 42, 0.5);
+    color: brown;
+    border-radius: 25px;
+    width: 90PX;
+    margin-bottom: 3px;
+}
+
+
+.time img{
+    width: 24px;
+    height: 24px;
+    padding-top: 2px;
+
+}
+
+.time P{
+    font-size: 16PX;
+}
+
+
+.latest-course{
+font-size: 50px;
+padding: 10px 20px;   
+color: rgb(54, 93, 211); 
+}
+
+
+.footer{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.432);
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+
